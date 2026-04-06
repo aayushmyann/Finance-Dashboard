@@ -20,13 +20,9 @@ export default function Charts() {
     <div className="grid md:grid-cols-2 gap-6 mt-4 items-start">
       <Card className="rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 bg-gray-900 border border-gray-800">
         <CardContent className="p-6 flex flex-col gap-4">
-          
-          {/* TITLE */}
           <h2 className="text-white font-semibold text-lg">
             Spending Trend
           </h2>
-
-          {/* CHART */}
           <div className="w-full h-[250px]">
             <ResponsiveContainer width="100%" height="100%">
               <LineChart data={trend}>
@@ -43,13 +39,9 @@ export default function Charts() {
 
       <Card className="rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 bg-gray-900 border border-gray-800">
         <CardContent className="p-6 flex flex-col gap-4">
-          
-          {/* TITLE */}
           <h2 className="text-white font-semibold text-lg">
             Category Breakdown
           </h2>
-
-          {/* CHART */}
           <div className="w-full h-[250px]">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>

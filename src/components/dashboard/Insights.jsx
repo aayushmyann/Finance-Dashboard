@@ -14,7 +14,6 @@ function Insights() {
 
   const highest = Object.entries(categoryMap).sort((a, b) => b[1] - a[1])[0];
 
-  // ✅ THIS WAS MISSING OR BROKEN
   const emiTotal =
     (categoryMap["Bike EMI"] || 0) +
     (categoryMap["Home Loan EMI"] || 0);
