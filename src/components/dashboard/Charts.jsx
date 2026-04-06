@@ -1,5 +1,5 @@
 import { useApp } from "../../context/AppContext";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "../../ui/card";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
 
 const COLORS = ["#6366f1","#22c55e","#f59e0b","#ef4444"];
